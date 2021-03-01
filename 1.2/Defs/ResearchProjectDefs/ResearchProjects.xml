@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--========== VWE_MakeshiftWeapons ============-->
+
+  <ResearchProjectDef>
+    <defName>VWE_MakeshiftWeapons</defName>
+    <label>makeshift weapons</label>
+    <description>Assemble very crude makeshift weapons, prone to jamming and very unreliable.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>5.00</researchViewX>
+    <researchViewY>6.20</researchViewY>
+		<tab>VanillaExpanded</tab>
+  </ResearchProjectDef>
+
+</Defs>
