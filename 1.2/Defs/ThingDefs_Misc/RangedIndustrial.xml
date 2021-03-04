@@ -50,7 +50,7 @@
     </costList>
     <verbs>
       <li>
-        <verbClass>Verb_Shoot</verbClass>
+        <verbClass>VWEMakeshift.Verb_MakeshiftShoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>VWE_Bullet_MakeshiftPistol</defaultProjectile>
         <warmupTime>0.3</warmupTime>
@@ -80,6 +80,19 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+	<modExtensions>
+		<li Class="VWEMakeshift.MoteProperties">
+			<moteDef>Mote_DustPuffThick</moteDef>
+			<size>0.5</size> <!-- Multiplier -->
+			<velocity>2</velocity> <!-- Fixed amount -->
+			<angleRange>-15~15</angleRange> <!-- Negative: Counter-clockwise Positive: Clockwise -->
+			<rotationRange>-5~5</rotationRange> <!-- Negative: Counter-clockwise Positive: Clockwise -->
+			<numTimesThrown>1</numTimesThrown> <!-- Fixed amount -->
+		</li>
+		<li Class="VWEMakeshift.MakeshiftProperties">
+			<shots>0~1</shots>
+		</li>
+	</modExtensions>
   </ThingDef>
   <ThingDef ParentName="BaseBullet">
     <defName>VWE_Bullet_MakeshiftPistol</defName>
@@ -124,7 +137,7 @@
     </costList>
     <verbs>
       <li>
-        <verbClass>Verb_Shoot</verbClass>
+        <verbClass>VWEMakeshift.Verb_MakeshiftShoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>VWE_Bullet_MakeshiftSMG</defaultProjectile>
         <warmupTime>1</warmupTime>
@@ -154,6 +167,19 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+	<modExtensions>
+		<li Class="VWEMakeshift.MoteProperties">
+			<moteDef>Mote_DustPuffThick</moteDef>
+			<size>0.5</size> <!-- Multiplier -->
+			<velocity>2</velocity> <!-- Fixed amount -->
+			<angleRange>-15~15</angleRange> <!-- Negative: Counter-clockwise Positive: Clockwise -->
+			<rotationRange>-5~5</rotationRange> <!-- Negative: Counter-clockwise Positive: Clockwise -->
+			<numTimesThrown>1</numTimesThrown> <!-- Fixed amount -->
+		</li>
+		<li Class="VWEMakeshift.MakeshiftProperties">
+			<shots>0~3</shots>
+		</li>
+	</modExtensions>
   </ThingDef>
   <ThingDef ParentName="BaseBullet">
     <defName>VWE_Bullet_MakeshiftSMG</defName>
@@ -197,7 +223,7 @@
     </costList>
     <verbs>
       <li>
-        <verbClass>Verb_Shoot</verbClass>
+        <verbClass>VWEMakeshift.Verb_MakeshiftShoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_AssaultRifle</defaultProjectile>
         <warmupTime>1.2</warmupTime>
@@ -227,6 +253,19 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+	<modExtensions>
+		<li Class="VWEMakeshift.MoteProperties">
+			<moteDef>Mote_DustPuffThick</moteDef>
+			<size>0.5</size> <!-- Multiplier -->
+			<velocity>2</velocity> <!-- Fixed amount -->
+			<angleRange>-15~15</angleRange> <!-- Negative: Counter-clockwise Positive: Clockwise -->
+			<rotationRange>-5~5</rotationRange> <!-- Negative: Counter-clockwise Positive: Clockwise -->
+			<numTimesThrown>1</numTimesThrown> <!-- Fixed amount -->
+		</li>
+		<li Class="VWEMakeshift.MakeshiftProperties">
+			<shots>0~5</shots>
+		</li>
+	</modExtensions>
   </ThingDef>
   <ThingDef ParentName="BaseBullet">
     <defName>VWE_Bullet_MakeshiftRifle</defName>
@@ -270,7 +309,7 @@
     </recipeMaker>
     <verbs>
       <li>
-        <verbClass>Verb_Shoot</verbClass>
+        <verbClass>VWEMakeshift.Verb_MakeshiftShoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>VWE_Bullet_MakeshiftShotgun</defaultProjectile>
         <warmupTime>1.1</warmupTime>
@@ -300,6 +339,19 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+	<modExtensions>
+		<li Class="VWEMakeshift.MoteProperties">
+			<moteDef>Mote_DustPuffThick</moteDef>
+			<size>0.5</size> <!-- Multiplier -->
+			<velocity>2</velocity> <!-- Fixed amount -->
+			<angleRange>-15~15</angleRange> <!-- Negative: Counter-clockwise Positive: Clockwise -->
+			<rotationRange>-5~5</rotationRange> <!-- Negative: Counter-clockwise Positive: Clockwise -->
+			<numTimesThrown>1</numTimesThrown> <!-- Fixed amount -->
+		</li>
+		<li Class="VWEMakeshift.MakeshiftProperties">
+			<shots>0~5</shots>
+		</li>
+	</modExtensions>
   </ThingDef>
 
   <ThingDef ParentName="BaseBullet">
@@ -346,7 +398,7 @@
     </costList>
     <verbs>
       <li>
-        <verbClass>Verb_Shoot</verbClass>
+        <verbClass>VWEMakeshift.Verb_MakeshiftShoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>VWE_Bullet_MakeshiftLMG</defaultProjectile>
         <warmupTime>1.8</warmupTime>
@@ -376,6 +428,19 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+	<modExtensions>
+		<li Class="VWEMakeshift.MoteProperties">
+			<moteDef>Mote_DustPuffThick</moteDef>
+			<size>0.5</size> <!-- Multiplier -->
+			<velocity>2</velocity> <!-- Fixed amount -->
+			<angleRange>-15~15</angleRange> <!-- Negative: Counter-clockwise Positive: Clockwise -->
+			<rotationRange>-5~5</rotationRange> <!-- Negative: Counter-clockwise Positive: Clockwise -->
+			<numTimesThrown>1</numTimesThrown> <!-- Fixed amount -->
+		</li>
+		<li Class="VWEMakeshift.MakeshiftProperties">
+			<shots>1~10</shots>
+		</li>
+	</modExtensions>
   </ThingDef>
   <ThingDef ParentName="BaseBullet">
     <defName>VWE_Bullet_MakeshiftLMG</defName>
