@@ -21,7 +21,7 @@
   <ThingDef ParentName="BaseMakeableMakeshiftGun">
     <defName>VWE_Gun_MakeshiftPistol</defName>
     <label>makeshift pistol</label>
-    <description>An ancient pattern blowback-operated self-loading pistol. It lacks stopping power and range, but is quick to fire.</description>
+    <description>An improvised, rough, ancient-design pattern blowback-operated self-loading pistol. It lacks stopping power and range and is prone to jamming.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/MakeshiftPistol</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -53,7 +53,7 @@
         <verbClass>VWEMakeshift.Verb_MakeshiftShoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>VWE_Bullet_MakeshiftPistol</defaultProjectile>
-        <warmupTime>0.3</warmupTime>
+        <warmupTime>0.6</warmupTime>
         <range>19.9</range>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
         <soundCast>Shot_Autopistol</soundCast>
@@ -111,7 +111,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>VWE_Gun_MakeshiftSMG</defName>
     <label>makeshift SMG</label>
-    <description>A micro-submachine gun. It is short-ranged, but very light in the hands. Its rate of fire tends to make up for its weakness.</description>
+    <description>A small, home-made micro-submachine gun. It's short range and very prone to jamming due to the rough design and faulty elements. Its rate of fire tends to make up for its weakness.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/MakeshiftSMG</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -198,7 +198,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>VWE_Gun_MakeshiftRifle</defName>
     <label>makeshift rifle</label>
-    <description>A general-purpose gas-operated assault rifle for field or urban combat. It has good range, decent power, and good accuracy.</description>
+    <description>A general-purpose gas-operated improvised assault rifle, utilising various salvaged components mounted on a militia rifle receiver. It has good range, decent power, and good accuracy, but is prone to jamming.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/MakeshiftRifle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -263,7 +263,7 @@
 			<numTimesThrown>1</numTimesThrown> <!-- Fixed amount -->
 		</li>
 		<li Class="VWEMakeshift.MakeshiftProperties">
-			<shots>0~5</shots>
+			<shots>1~5</shots>
 		</li>
 	</modExtensions>
   </ThingDef>
@@ -284,7 +284,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>VWE_Gun_MakeshiftShotgun</defName>
     <label>makeshift shotgun</label>
-    <description>An ancient design of shotgun that emits a tight-packed spray of pellets. Deadly, but short range.</description>
+    <description>An improvised design powerful shotgun that emits a large barrage of pellets. Deadly, but short range. Due to numerous faults in design, the amount of pellets fired varies shot by shot.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/MakeshiftShotgun</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -349,7 +349,7 @@
 			<numTimesThrown>1</numTimesThrown> <!-- Fixed amount -->
 		</li>
 		<li Class="VWEMakeshift.MakeshiftProperties">
-			<shots>0~5</shots>
+			<shots>1~5</shots>
 		</li>
 	</modExtensions>
   </ThingDef>
@@ -358,7 +358,7 @@
     <defName>VWE_Bullet_MakeshiftShotgun</defName>
     <label>makeshift shotgun pellet</label>
     <graphicData>
-      <texPath>Things/Projectile/Bullet_Shotgun</texPath>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
@@ -373,7 +373,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>VWE_Gun_MakeshiftLMG</defName>
     <label>makeshift LMG</label>
-    <description>A gas-operated light machine gun. While it is somewhat unwieldy and inaccurate, its long bursts of fire are effective against groups of enemies.</description>
+    <description>An improvised, gas-operated light machine gun. Unwieldy and inaccurate, it is also very prone to jamming. Its long bursts of fire are effective against groups of enemies, but their shot counts are completely random.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/MakeshiftLMG</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -438,7 +438,7 @@
 			<numTimesThrown>1</numTimesThrown> <!-- Fixed amount -->
 		</li>
 		<li Class="VWEMakeshift.MakeshiftProperties">
-			<shots>1~10</shots>
+			<shots>3~12</shots>
 		</li>
 	</modExtensions>
   </ThingDef>

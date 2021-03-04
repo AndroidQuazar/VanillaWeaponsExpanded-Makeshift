@@ -9,8 +9,8 @@
     <description>Assemble very crude makeshift weapons, prone to jamming and very unreliable.</description>
     <baseCost>500</baseCost>
     <techLevel>Industrial</techLevel>
-    <researchViewX>5.00</researchViewX>
-    <researchViewY>6.20</researchViewY>
+  <researchViewX>2.00</researchViewX>
+  <researchViewY>5.70</researchViewY>
 		<tab>VanillaExpanded</tab>
   </ResearchProjectDef>
 
