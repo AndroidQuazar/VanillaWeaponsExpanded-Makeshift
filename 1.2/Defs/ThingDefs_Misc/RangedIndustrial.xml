@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef Name="BaseMakeableMakeshiftGun" ParentName="BaseGunWithQuality" Abstract="True">
+  <ThingDef Name="BaseMakeableMakeshiftGun" ParentName="BaseGun" Abstract="True">
     <recipeMaker>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
@@ -108,7 +108,7 @@
     </projectile>
   </ThingDef>
   
-  <ThingDef ParentName="BaseHumanMakeableGun">
+  <ThingDef ParentName="BaseMakeableMakeshiftGun">
     <defName>VWE_Gun_MakeshiftSMG</defName>
     <label>makeshift SMG</label>
     <description>A small, home-made micro-submachine gun. It's short range and very prone to jamming due to the rough design and faulty elements. Its rate of fire tends to make up for its weakness.</description>
@@ -195,7 +195,7 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="BaseHumanMakeableGun">
+  <ThingDef ParentName="BaseMakeableMakeshiftGun">
     <defName>VWE_Gun_MakeshiftRifle</defName>
     <label>makeshift rifle</label>
     <description>A general-purpose gas-operated improvised assault rifle, utilising various salvaged components mounted on a militia rifle receiver. It has good range, decent power, and good accuracy, but is prone to jamming.</description>
@@ -281,7 +281,7 @@
     </projectile>
   </ThingDef>
   
-  <ThingDef ParentName="BaseHumanMakeableGun">
+  <ThingDef ParentName="BaseMakeableMakeshiftGun">
     <defName>VWE_Gun_MakeshiftShotgun</defName>
     <label>makeshift shotgun</label>
     <description>An improvised design powerful shotgun that emits a large barrage of pellets. Deadly, but short range. Due to numerous faults in design, the amount of pellets fired varies shot by shot.</description>
@@ -370,7 +370,7 @@
     </projectile>
   </ThingDef>
   
-  <ThingDef ParentName="BaseHumanMakeableGun">
+  <ThingDef ParentName="BaseMakeableMakeshiftGun">
     <defName>VWE_Gun_MakeshiftLMG</defName>
     <label>makeshift LMG</label>
     <description>An improvised, gas-operated light machine gun. Unwieldy and inaccurate, it is also very prone to jamming. Its long bursts of fire are effective against groups of enemies, but their shot counts are completely random.</description>
