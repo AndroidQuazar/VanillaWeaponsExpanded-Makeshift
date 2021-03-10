@@ -30,7 +30,7 @@
     <soundInteract>Interact_Autopistol</soundInteract>
     <recipeMaker>
       <skillRequirements>
-        <Crafting>6</Crafting>
+        <Crafting>4</Crafting>
       </skillRequirements>
     </recipeMaker>
     <weaponTags>
@@ -120,7 +120,7 @@
     <soundInteract>Interact_SMG</soundInteract>
     <recipeMaker>
       <skillRequirements>
-        <Crafting>7</Crafting>
+        <Crafting>5</Crafting>
       </skillRequirements>
     </recipeMaker>
     <statBases>
@@ -206,7 +206,7 @@
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
       <skillRequirements>
-        <Crafting>8</Crafting>
+        <Crafting>6</Crafting>
       </skillRequirements>
     </recipeMaker>
     <statBases>
@@ -219,7 +219,7 @@
       <RangedWeapon_Cooldown>1.70</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <ComponentIndustrial>6</ComponentIndustrial>
+      <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -304,7 +304,7 @@
     </costList>
     <recipeMaker>
       <skillRequirements>
-        <Crafting>7</Crafting>
+        <Crafting>6</Crafting>
       </skillRequirements>
     </recipeMaker>
     <verbs>
@@ -381,7 +381,7 @@
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
       <skillRequirements>
-        <Crafting>8</Crafting>
+        <Crafting>7</Crafting>
       </skillRequirements>
     </recipeMaker>
     <statBases>
